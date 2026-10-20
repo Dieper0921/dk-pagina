@@ -558,7 +558,7 @@ export const AdminPanel: React.FC = () => {
 
                     <div>
                       <label className="block text-[11px] font-bold text-slate-700 mb-1">
-                        Número con código de país (Ej: +1 555 123 4567, +54 9 11 1234 5678, +52 1 55...)
+                        Número de WhatsApp de Perú (+51) o internacional (Ej: +51 987 654 321)
                       </label>
                       <input
                         type="text"

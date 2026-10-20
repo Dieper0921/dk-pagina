@@ -257,7 +257,7 @@ export const CartDrawer: React.FC = () => {
                       <input
                         type="tel"
                         required
-                        placeholder="+54 9 11..."
+                        placeholder="Ej: 987 654 321"
                         value={customerPhone}
                         onChange={(e) => setCustomerPhone(e.target.value)}
                         className="w-full text-xs px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-slate-900"
@@ -265,12 +265,12 @@ export const CartDrawer: React.FC = () => {
                     </div>
                     <div>
                       <label className="block text-[11px] font-medium text-slate-700 mb-1">
-                        Ciudad / Región *
+                        Ciudad / Departamento *
                       </label>
                       <input
                         type="text"
                         required
-                        placeholder="Ej: Buenos Aires"
+                        placeholder="Ej: Lima, Arequipa, etc."
                         value={city}
                         onChange={(e) => setCity(e.target.value)}
                         className="w-full text-xs px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-slate-900"
@@ -285,7 +285,7 @@ export const CartDrawer: React.FC = () => {
                     <input
                       type="text"
                       required
-                      placeholder="Calle, número, depto o referencia"
+                      placeholder="Calle, número, distrito o referencia"
                       value={deliveryAddress}
                       onChange={(e) => setDeliveryAddress(e.target.value)}
                       className="w-full text-xs px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-slate-900"
@@ -302,10 +302,10 @@ export const CartDrawer: React.FC = () => {
                         onChange={(e) => setPaymentMethod(e.target.value)}
                         className="w-full text-xs px-2 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-slate-900"
                       >
-                        <option value="Transferencia Bancaria">Transferencia Bancaria</option>
-                        <option value="Contra Entrega / Efectivo">Pago Contra Entrega</option>
+                        <option value="Yape / Plin">Yape / Plin</option>
+                        <option value="Transferencia BCP / BBVA / Interbank">Transferencia BCP / BBVA / Interbank</option>
+                        <option value="Contra Entrega (Lima Metropolitana)">Contra Entrega (Lima)</option>
                         <option value="Tarjeta / Link de Pago">Tarjeta de Crédito / Débito</option>
-                        <option value="Cripto (USDT / BTC)">Cripto (USDT / BTC)</option>
                       </select>
                     </div>
                     <div>

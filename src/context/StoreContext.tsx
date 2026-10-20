@@ -54,10 +54,10 @@ interface StoreContextType {
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
 const LOCAL_STORAGE_KEYS = {
-  PRODUCTS: 'nexus_products_v1',
-  CONFIG: 'nexus_config_v1',
-  REVIEWS: 'nexus_reviews_v1',
-  CART: 'nexus_cart_v1',
+  PRODUCTS: 'nexus_products_peru_v1',
+  CONFIG: 'nexus_config_peru_v1',
+  REVIEWS: 'nexus_reviews_peru_v1',
+  CART: 'nexus_cart_peru_v1',
   ADMIN_AUTH: 'nexus_admin_auth_v1',
 };
 

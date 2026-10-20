@@ -98,9 +98,9 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} {storeConfig.storeName}. Todos los derechos reservados.
           </div>
           <div className="flex items-center gap-4">
-            <span>Envíos Seguros a Todo el País</span>
+            <span>Envíos Seguros a Lima y todo el Perú</span>
             <span aria-hidden="true">·</span>
-            <span>Atención Personalizada 24/7 vía WhatsApp</span>
+            <span>Atención Personalizada vía WhatsApp</span>
           </div>
         </div>
       </div>
